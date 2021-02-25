@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bitcoin</string>
+    <string name="wallet">X2 Wallet</string>
+    <string name="create">Create New Wallet</string>
+    <string name="already">I already Have Account</string>
+    <string name="Fname">First Name</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="signup">Signup</string>
+    <string name="sigin">Signin</string>
+    <string name="Token">Token</string>
+    <string name="Lname">Last name</string>
+    <string name="Finance">Finance</string>
+    <string name="Collectibles">Collectibles</string>
+</resources>

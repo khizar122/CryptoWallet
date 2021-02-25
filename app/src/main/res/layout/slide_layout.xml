@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".onboarding.onboardingone">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/view2"
+            ></View>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_29696"
+            android:layout_below="@+id/view2"
+            android:id="@+id/image2"
+            android:layout_centerHorizontal="true"
+
+            ></ImageView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/image2"
+            android:id="@+id/view3"
+            ></View>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/btncreate2"
+            app:rippleColor="@color/white"
+            android:backgroundTint="@color/blue"
+            android:layout_centerHorizontal="true"
+            android:text="@string/create"
+            android:layout_below="@id/tv_heading"
+            android:layout_gravity="center"
+            app:cornerRadius="10dp"
+
+
+            ></com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dumy dumy dumy dumy"
+            android:layout_below="@+id/view3"
+            android:id="@+id/tv_heading"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:letterSpacing="0"
+            android:padding="40dp"
+            android:lineHeight="10sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            ></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
