@@ -1,2 +1,2 @@
-# Bitcoin
+# CryptoWallet
 This is Wallet app
